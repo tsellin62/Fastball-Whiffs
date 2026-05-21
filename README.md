@@ -76,6 +76,12 @@ the whiff rate on 4 seam fastballs.
 | 3        |    11 | 2272.2 |    21.8 |
 | 4        |    10 | 2153.5 |    18.3 |
 
+## Visual Representation
+As mentioned above, I also wanted to get a little bit of experience with Tableau. However, I discovered that you cannot connect to a MySQL server from the free version
+of Tableau. So, I exported the data as a csv and moved it in, which I am not thrilled with, but it's better than nothing. Then, I made the graph that is linked below. Visually, there is a
+strong trend indicating that as fastball velocity goes up, so does whiff rate. A photo of the graph is also attached in the repo.  
+[https://public.tableau.com/views/Fastballs_17794062559450/Velo?:language=en-US&:sid=&:redirect=auth&publish=yes&showOnboarding=true&:display_count=n&:origin=viz_share_link](url)
 
-
+## Next Steps
+While I did this as just a quick afternoon project to have some fun in SQL, there are obviously more steps if I want to really say something about this. I would say that I might take it into python and run a logistic regression to find how significant each factor is. I should also expand my dataset to other seasons. It would be interesting to have pitch by pitch data for all of these things to try to predict a whiff. I may pick this up again in the future. I had a lot of fun doing this one, as I heavily enjoy working with SQL stuff. I had been doing a bunch of SQL practice questions for fun and decided I should actually do something real, and this helped me learn a lot more and actually apply what I know.
 
